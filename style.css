@@ -1,0 +1,106 @@
+
+    body {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        background-image: url('images/foto1.jpg'); /* Ruta a tu imagen de fondo */
+        background-size: 10%; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+        background-position: center; /* Centra la imagen en el fondo */
+    }
+    
+    .contenido-central {
+        text-align: center;
+        border: 2px solid blueviolet; /* Borde de 2 píxeles de ancho y color gris oscuro (#333) */
+        padding: 20px; /* Relleno para separar el contenido del borde */
+        max-width: 800px; /* Ancho máximo del cuadro */
+        width: 100%; /* Asegura que el cuadro no sea más ancho que el ancho máximo */
+        box-sizing: border-box; /* Incluye el borde y el relleno en el tamaño total del cuadro */
+        background-color:#282c34; /* Color de fondo del cuadro (opcional) */
+    }
+    #boton4 {
+        background-color: white;
+        width: 50%;
+        height: 25px;
+    }
+    #php {
+        display: none;
+    }
+    #contenedor-imagenes {
+        display: flex;
+                justify-content: space-between; /* Espaciado uniforme entre las imágenes */
+                align-items: center;
+                flex-wrap: wrap; /* Permite que las imágenes se envuelvan si no hay suficiente espacio en la línea */
+                margin-top: 20px;
+                display: none;
+            }
+    
+    img {
+        max-width: 40%; /* Ancho máximo de cada imagen para dejar espacio entre ellas */
+        height: auto;
+        margin: 10px;
+    }
+    .boton-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .boton {
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: #fff;
+        cursor: not-allowed;
+        font-size: 16px;
+        outline: none;
+        user-select: none; /* Evita la selección de texto al hacer clic */
+        background-image: url('images/minion.gif'); /* Ruta a tu imagen */
+        background-size: 33px; /* Ajusta el tamaño de la imagen */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+        background-position: 10px center; /* Posición de la imagen */
+        padding-left: 40px; /* Ajusta el espacio para la imagen */
+    }
+    
+    .boton:hover {
+        background-color: #3498db; /* Mantén el color al pasar el ratón sobre él */
+    }
+    .boton1 {
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: #fff;
+        font-size: 16px;
+        user-select: none; /* Evita la selección de texto al hacer clic */
+        background-image: url('images/minion1.gif'); /* Ruta a tu imagen */
+        background-size: 33px; /* Ajusta el tamaño de la imagen */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+        background-position: 10px center; /* Posición de la imagen */
+        padding-left: 40px; /* Ajusta el espacio para la imagen */
+    }
+    #gif {
+        display: none;
+    } 
+    h1 {
+        color:white;
+        font-family: sans-serif;
+        font-size: 30px;
+    } 
+    h2 {
+        color:white;
+        font-family:serif ;
+        font-size: 25px;
+    } 
+    h3 {
+        color: white;
+        font-family:monospace ;
+        font-size: 20px;
+    }
+    p {
+        color:white;
+        font-family: monospace ;
+        font-size: 18px;
+    }
+
+
+

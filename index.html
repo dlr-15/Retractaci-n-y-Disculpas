@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinceras disculpas</title>
+    <link rel="shortcut icon" href="images/icono1.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contenido-central">
+        <!-- Tu contenido aquí -->
+        <h1>Hola, soy Esteban y esta son las palabras que tengo para decirte!</h1>
+        <p>Elabore este sitio web empezando para pedir disculpas y también para enseñarte que si le sé a los sitios
+            web,le recomiendo ver esto desde un pc y si no puede valla a los tres puntos del navegador y 
+            active la función que dice sitio para computadoras,
+            espero le guste...</p>
+        <hr color="black">
+        <p>Dejo este audio para que no solo leas si no que tambien escuches y sea mas emocionante la lectura</p>
+
+        <audio controls>
+            <source src="cancion/cancion1.mp3" type="audio/mp3">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+        <hr color="black">
+
+        <h3>Empezaré primero con las disculpas, ya que te las debo, sabes que no sé expresarme mucho y trate de hacer lo
+            mejor que pude</h3>
+        <button id="boton4" onclick="mirar ();">Ver mensaje</button>
+        <div id="php">
+            <p>Hola, soy yo de nuevo. Disculpa si no querías volver saber nada más de mí y con este mensaje lo arruino
+                todo. Pero desde el último día que dejamos de hablar no puedo dejar de pensar en lo
+                tonto que fui hací que empezaré pidiendo disculpas.
+                Pido disculpas porque olvidé lo mucho que te costaba expresarte y no supe valorarlo,
+                también pido disculpas por lo patán que fue mi respuesta, Perdón si no supe lo difícil que era para
+                ti decirme eso y lo bastante que te costaba el decir esas palabras. Solo quiero que sepas que desde esa
+                noche no puedo dejar de pensar en el daño que pude haber causado.
+
+                Ahora si querías la respuesta a tu mensaje, creo que ahora la tengo, si tú también me
+                gustabas o no sé si aún me sigues gustando y no lo digo por hacerte sentir bien, sino que lo digo porque
+                fue
+                cuestión de tiempo para haberme dado cuenta de la gran chica que eras y lo excelente que sos, con
+                esto me refiero a que la única que se tomaba el tiempo de escucharme y opinar o aconsejarme eras vos.
+                Solo
+                fue cuestión de tiempo para darme cuenta de que perdía a una chica muy valiosa.
+                Te escribo hoy 2 de enero por qué solo me dije a mí mismo o terminamos o seguimos con
+                esto el mismo día que todo comenzó. Pero quiero que sepas que si decides no hablarme más lo entenderé y
+                no
+                me olvidaré de ti nunca ya que eres y serás un recuerdo que hace que mi vida sea vida.
+                Att:Esteban - para:la webonsota</p>
+            <button id="boton4" onclick="nomirar ();">Ocultar mensaje</button>
+            <script>
+                function mirar() {
+                    document.getElementById("php").style.display = "block";
+                }
+                function nomirar() {
+                    document.getElementById("php").style.display = "none";
+                }
+            </script>
+        </div>
+        <hr color="#000000">
+
+        <h2>Como esta página se trata de vos, ¿por qué no poner dos fotos (muy importantes para mí)? Prefiero borrar el
+            call of duty a las fotos (obvio no la aria, o bueno tal vez😉)</h2>
+        <button onclick="toggleImagenes()">Mostrar/Esconder Imágenes</button>
+        <div id="contenedor-imagenes">
+            <img src="images/foto2.jpg" alt="Imagen 1">
+            <img src="images/foto3.jpg" alt="Imagen 2">
+            <!-- Añade más imágenes según sea necesario -->
+        </div>
+        <script>
+            function toggleImagenes() {
+                var contenedor = document.getElementById("contenedor-imagenes");
+                var estadoActual = contenedor.style.display;
+
+                if (estadoActual === "none") {
+                    contenedor.style.display = "block";
+                } else {
+                    contenedor.style.display = "none";
+                }
+            }
+        </script>
+        <hr color="black">
+        <h2>Aparte de esta página también había hecho una para ti el día de las flores esas, pero no me respondiste así
+            que me dio como impaciencia y borre el mensaje</h2>
+
+        <a href="https://dlr-15.github.io/FLOR/" target="_blank"><button>Haz click para ingresar al sitio</button></a>
+        <hr color="black">
+        <h2>Y para finalizar quiero qe sepas</h2>
+        <p>Literalmente no se que mrdas me esta pasando ultimamente, pero no dejo de pensar en ust una y otra vez,
+            mañana, tarde hasta noche, decidi escribirte tambien para ayudarme por que es mi conciencia la que me
+            atormenta todos los dias por haber sido tan inmaduro, igual tenia 15 años como con 123 dias aproximadamente,
+            y ahora tengo mas dias, ok no, pero si me hace falta las noches que hablabamos tu me contabas tus cosas y yo
+            las mias y reiamos o nos enojabamos y quiero finalizar diciendote que las veces que te dejaba de hablar no
+            solo era por temas de estudio, era por que yo le tengo miedo a enamorarme, este sentimiento en mi vida nunca
+            lo he sentido y viendo a la gente siempre digo el amor es algo que solo puede llevar a una persona a las
+            ruinas, por que aferrarme a una persona y que de repente la relacion no de para mas y el sentimiento que se
+            tiene es horrible, tampoco estoy utilizando esto como excusa para justificar tal vez el daño que cause, solo
+            queria que supieras esto.En pocas palabras la extraño rata de alcantarilla...
+        </p>
+        <hr color="black">
+
+        <h2>Entonces que dices, me perdonas?</h2>
+        <button class="boton1" onclick="abrir()">si</button>
+        <div id="gif">
+            <img src="images/minion2.gif" alt="gif">
+            <p>Sabia que dirias que si😘</p>
+        </div>
+        <button class="boton1" onclick="cerrar()">cerrar</button>
+        <script>
+            function abrir() {
+                document.getElementById("gif").style.display = "block"
+            }
+            function cerrar() {
+                document.getElementById("gif").style.display = "none"
+            }
+        </script>
+        <button class="boton" disabled title="no es una opcion">no</button>
+        <hr color="black">
+
+
+        <h2>No me acuerdo si es hoy o era ayer pero igualmente..</h2>
+        <img src="images/cumpleaños.jpg" alt="feliz cumpleaños">
+        <hr color="black">
+
+        <audio controls>
+            <source src="cancion/dedicar1.mp3" type="audio/mp3">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+        <p>te la dedico presiosa😜</p>
+        <hr color="black">
+        <h2>Nota</h2>
+        <p>Literalmente esta pagina fue una idea que se me ocurrio una noche para ser mas exactos 13 de Diciembre a las
+            12 de la mañana, solo estaba pensando en una forma para pedirte disculpas y decir las cosas que tenia para
+            hacerte saber, y bueno ni tan mala la idea pq me resultó todo bien. Además nadie le ha hecho y ni le hará
+            una pagina haci a ust o bueno no se pero eso me hace unico y ya sabras que me gusta ser unico😝. </p>
+    </div>
+</body>
+
+</html>
